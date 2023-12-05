@@ -15,9 +15,9 @@ function add(event){
 
     let add = `
     <tr id="${cont}"> 
-    <td id="tarefa-${cont}" onclick="trocarT(${cont})" class="tarefas"> ${descInput}</td>
+    <td id="tarefa-${cont}" onclick="trocarT(${cont})" class="tarefas"><span title="Precione para trocar a descrição da tarefa!">${descInput}</span></td>
     <td id="status-${cont}">Pendente</td> 
-    <td onclick="trocarN(${cont})" id="nome-${cont}" class="responsaveis">${respInput} </td>
+    <td onclick="trocarN(${cont})" id="nome-${cont}" class="responsaveis"><span title="Precione para trocar o responsavel!">${respInput}</span></td>
     <td>
     <button onclick="concluido(${cont})" class="concluir">Concluir</button>
     <button onclick="cancelar(${cont})" class="cancelar">Cancelar</button>
