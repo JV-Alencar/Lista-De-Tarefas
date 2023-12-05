@@ -39,7 +39,6 @@ function concluido(id){
     let status = document.getElementById("status-" + id);
     if(marcado == false){
         status.replaceChildren("Concluído");
-        marcado = true;
     }
 }
 
