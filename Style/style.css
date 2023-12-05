@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+h1 {
+    text-align: center;
+}
+form {
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="submit"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+input[type="submit"]{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="checkbox"]{
+    cursor: pointer;
+}
+
+.tarefas, .responsaveis{
+    cursor: pointer;
+}
+
+.concluir{
+    background-color: #4CAF50;
+    border: none;
+    cursor: pointer;
+}
+
+.cancelar{
+    background-color: #ff0000;
+    border: none;
+    cursor: pointer;
+}
+
+.remover{
+    background-color: #808080;
+    border: none;
+    cursor: pointer;
+}
+
+.cancelar:hover{
+    background-color: #ec0101;
+}
+
+.remover:hover{
+    background-color: #767676;
+}
+
+.concluir:hover{
+    background-color: #45a049;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
